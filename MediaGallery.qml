@@ -8,7 +8,7 @@ Rectangle{
     property string title: "Media Gallery"
     color: "lightgray"
     property int maxZ: 0
-    property var media: ["file:///C:/Users/estagiario/Documents/test_1/media/lanscape.jfif", "file:///C:/Users/estagiario/Documents/test_1/media/furret.jfif", "file:///C:/Users/estagiario/Documents/test_1/media/Arti.jfif"]
+    property var media: ["file:///C:/Users/estagiario/Documents/ProjetosQTCreator/test_1/media/lanscape.jfif", "file:///C:/Users/estagiario/Documents/ProjetosQTCreator/test_1/media/furret.jfif", "file:///C:/Users/estagiario/Documents/ProjetosQTCreator/test_1/media/Arti.jfif"]
 
     function randomIntFromInterval(min, max) { // min and max included
       return Math.floor(Math.random() * (max - min + 1) + min)
